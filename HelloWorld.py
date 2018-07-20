@@ -11,3 +11,24 @@ print('Hello Wolrd {}'.format(x))
 x=43
 print(f'Hello World {x}')
 
+## if conditoin
+x = 44
+y = 33
+
+if x < y:
+    print(f'x < y: x is {x} and y is {y}')
+else:
+    print(f'x > y: x is {x} and y is {y}')
+    
+## while loop    
+words = ('one' , 'two', 'three')
+n=0
+while(n < len(words)):
+    print(words[n])
+    n += 1
+else:
+    print('All elimented printed')
+    
+## for loop
+
+        
