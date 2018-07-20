@@ -40,4 +40,14 @@ while b <1000:
 print()
  ## for loop
 
-        
+animals = ( 'bear' , 'lion' ,'elephant' ,'cat' )
+
+for i in animals:
+    if i == 'lion': continue
+    print(f'Animal Listing: {i}')
+
+# Animal Listing: bear
+# Animal Listing: elephant
+# Animal Listing: cat
+
+ 
