@@ -78,7 +78,7 @@ print()
 ######## Class ##############3
 
 class Duck:
-    def quack(self):
+    def quack(self): ## Methods have a self constructor where as functions does not
         print('Quaaak')
         
     def walk(self):
@@ -91,6 +91,6 @@ def main():
     
 print('Class')
 print('=====')
-if __name__ == '__main__': main()
+if __name__ == '__main__': main() ## Good practice, this will interprite the entire program proir runing
 
         
