@@ -29,6 +29,15 @@ while(n < len(words)):
 else:
     print('All elimented printed')
     
-## for loop
+    
+## Simple Fibonacci series
+
+a, b = 0, 1
+while b <1000:
+    print(b, end = ' ', flush = True) # flush ==> flushes memory , end ==> change the endlines chars
+    a, b = b, a + b
+
+print()
+ ## for loop
 
         
