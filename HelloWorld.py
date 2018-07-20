@@ -72,5 +72,25 @@ def isprime(n):
 for n in range(100):
     if isprime(n):
         print(f'{n}', end = ' ')
+
+print()
         
+######## Class ##############3
+
+class Duck:
+    def quack(self):
+        print('Quaaak')
+        
+    def walk(self):
+        print('Walks')
+        
+def main():
+    donald = Duck()
+    donald.quack()
+    donald.walk()
+    
+print('Class')
+print('=====')
+if __name__ == '__main__': main()
+
         
